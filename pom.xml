@@ -75,6 +75,8 @@
 			<artifactId>hcl-mule-utils</artifactId>
 			<version>1.2.0</version>
 		</dependency>
+		
+		
 		<dependency>
 			<groupId>com.mulesoft.munit</groupId>
 			<artifactId>munit-runner</artifactId>
@@ -104,6 +106,16 @@
     </dependencies>
 
 	<repositories>
+	<repository>
+			<id>rambo-cicd</id>
+			<url>https://pkgs.dev.azure.com/rambo-cicd/_packaging/rambo-cicd/maven/v1</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
 		<repository>
 			<id>anypoint-exchange-v2</id>
 			<name>Anypoint Exchange</name>
@@ -128,5 +140,18 @@
 			</snapshots>
 		</pluginRepository>
 	</pluginRepositories>
-
+<distributionManagement>
+		<!-- Copy this section from the Maven section of the "Connect to Feed" 
+			dialog" -->
+		<repository>
+			<id>rambo-cicd</id>
+			<url>https://pkgs.dev.azure.com/rambo-cicd/_packaging/rambo-cicd/maven/v1</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</distributionManagement>
 </project>
