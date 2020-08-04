@@ -105,16 +105,10 @@
         </dependency>
         <dependency>
             <groupId>org.mule.distributions</groupId>
-  			<artifactId>mule-services-all</artifactId>
-  			 <version>4.3.0</version>
-            <classifier>mule-plugin</classifier>
+  			<artifactId>mule-distributions</artifactId>
+  			 <version>4.3.0-ea2</version>
         </dependency>
-    	<dependency>
-            <groupId>com.mulesoft.connectors</groupId>
-            <artifactId>mule-servicenow-connector</artifactId>
-            <version>6.5.0</version>
-            <classifier>mule-plugin</classifier>
-        </dependency>
+    	
     </dependencies>
 
 	<repositories>
@@ -150,6 +144,11 @@
 			<snapshots>
 				<enabled>false</enabled>
 			</snapshots>
+		</pluginRepository>
+		
+		<pluginRepository>
+			<id>mule-public</id>
+			<url>https://repository.mulesoft.org/nexus/content/repositories/releases</url>
 		</pluginRepository>
 	</pluginRepositories>
    <!-- <distributionManagement>
