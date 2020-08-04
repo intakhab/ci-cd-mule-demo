@@ -70,11 +70,11 @@
 	</build>
 
 	<dependencies>
-		<!-- <dependency>
+		 <dependency>
 			<groupId>com.hcl.coe</groupId>
 			<artifactId>hcl-mule-utils</artifactId>
 			<version>1.2.0</version>
-		</dependency> -->
+		</dependency> 
 		
 		
 		<dependency>
@@ -109,10 +109,16 @@
   			 <version>4.3.0</version>
             <classifier>mule-plugin</classifier>
         </dependency>
+    	<dependency>
+            <groupId>com.mulesoft.connectors</groupId>
+            <artifactId>mule-servicenow-connector</artifactId>
+            <version>6.5.0</version>
+            <classifier>mule-plugin</classifier>
+        </dependency>
     </dependencies>
 
 	<repositories>
-	<!-- <repository>
+	 <repository>
 			<id>rambo-cicd</id>
 			<url>https://pkgs.dev.azure.com/rambo-cicd/_packaging/rambo-cicd/maven/v1</url>
 			<releases>
@@ -121,7 +127,7 @@
 			<snapshots>
 				<enabled>true</enabled>
 			</snapshots>
-		</repository> -->
+		</repository>
 		<repository>
 			<id>anypoint-exchange-v2</id>
 			<name>Anypoint Exchange</name>
@@ -146,9 +152,7 @@
 			</snapshots>
 		</pluginRepository>
 	</pluginRepositories>
-   <!-- <distributionManagement>
-		Copy this section from the Maven section of the "Connect to Feed" 
-			dialog"
+   <distributionManagement>
 		<repository>
 			<id>rambo-cicd</id>
 			<url>https://pkgs.dev.azure.com/rambo-cicd/_packaging/rambo-cicd/maven/v1</url>
@@ -159,6 +163,6 @@
 				<enabled>true</enabled>
 			</snapshots>
 		</repository>
-	</distributionManagement> -->
+	</distributionManagement>
 	
 </project>
