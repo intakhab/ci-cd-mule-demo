@@ -103,16 +103,11 @@
             <version>1.2.0</version>
             <classifier>mule-plugin</classifier>
         </dependency>
-		 <dependency>
-			<groupId>org.mule.distributions</groupId>
-			<artifactId>mule-module-embedded-impl</artifactId>
-			<version>4.3.0</version>
-		</dependency> 
 		<dependency>
-			<groupId>org.mule.distributions</groupId>
-			<artifactId>mule-embedded</artifactId>
-			<version>4.3.0</version>
-		</dependency>
+  <groupId>org.mule.distributions</groupId>
+  <artifactId>mule-embedded</artifactId>
+  <version>4.3.0</version>
+</dependency>
     </dependencies>
 
 	<repositories>
