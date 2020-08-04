@@ -70,11 +70,11 @@
 	</build>
 
 	<dependencies>
-		<dependency>
+		<!-- <dependency>
 			<groupId>com.hcl.coe</groupId>
 			<artifactId>hcl-mule-utils</artifactId>
 			<version>1.2.0</version>
-		</dependency>
+		</dependency> -->
 		
 		
 		<dependency>
