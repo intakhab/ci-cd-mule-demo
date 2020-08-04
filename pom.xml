@@ -104,10 +104,10 @@
             <classifier>mule-plugin</classifier>
         </dependency>
         <dependency>
-            <groupId>org.mule.distributions</groupId>
-  			<artifactId>mule-distributions</artifactId>
-  			 <version>4.3.0-ea2</version>
-        </dependency>
+	<groupId>org.mule.distributions</groupId>
+	<artifactId>mule-module-embedded-impl</artifactId>
+	<version>4.3.0</version>
+</dependency>
     	
     </dependencies>
 
