@@ -103,6 +103,12 @@
             <version>1.2.0</version>
             <classifier>mule-plugin</classifier>
         </dependency>
+        <dependency>
+            <groupId>org.mule.distributions</groupId>
+  			<artifactId>mule-services-all</artifactId>
+  			 <version>4.3.0</version>
+            <classifier>mule-plugin</classifier>
+        </dependency>
     </dependencies>
 
 	<repositories>
@@ -154,4 +160,5 @@
 			</snapshots>
 		</repository>
 	</distributionManagement> -->
+	
 </project>
